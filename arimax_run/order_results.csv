@@ -1,0 +1,7 @@
+order,rmse,n_pred_ok,pred_file
+"(1, 0, 0)",0.043895530550329714,4014,arimax_run\preds_order_1_0_0.csv
+"(2, 0, 0)",0.05233069501466825,4014,arimax_run\preds_order_2_0_0.csv
+"(1, 0, 1)",0.038061907122484376,4014,arimax_run\preds_order_1_0_1.csv
+"(2, 0, 1)",0.051029045424202814,4014,arimax_run\preds_order_2_0_1.csv
+"(1, 0, 2)",0.04092600100720847,4014,arimax_run\preds_order_1_0_2.csv
+"(2, 0, 2)",0.04358771585360886,4014,arimax_run\preds_order_2_0_2.csv

@@ -13,7 +13,7 @@ df['Target_Return_7d'] = (df['Future_Close_7d'] - df['Close']) / df['Close']
 
 # 3. สร้าง Target แบบ Classification (Up/Down/Sideways)
 # กำหนด Threshold ที่ต้องการ (เช่น 3% หรือ 0.03)
-threshold = 0.03
+threshold = 0.02
 
 conditions = [
     (df['Target_Return_7d'] > threshold),       # เงื่อนไขขาขึ้น

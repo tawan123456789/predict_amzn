@@ -1,0 +1,34 @@
+======================================================================================
+      Linear regression REGRESSION METRICS (Simple LR): sklearn vs From Scratch       
+======================================================================================
+Metric          sklearn Train    Scratch Train     sklearn Test     Scratch Test
+--------------------------------------------------------------------------------------
+MSE                 0.000433        0.000433        0.000409        0.000409
+RMSE                0.020804        0.020804        0.020213        0.020213
+MAE                 0.014362        0.014362        0.014795        0.014795
+R2                  0.000287        0.000287        0.000807        0.000807
+======================================================================================
+
+Scratch parameters:
+b0 (intercept) = 0.0010696742
+b1 (slope)     = -0.0169433749
+
+Sklearn parameters:
+intercept_ = 0.0010696742
+coef_      = -0.0169433749
+
+=== DIRECTION ACCURACY ===
+sklearn Train Direction Acc : 0.5273
+scratch Train Direction Acc : 0.5273
+sklearn Test Direction Acc  : 0.5247
+scratch Test Direction Acc  : 0.5247
+
+=== FINAL TEST RESULT ===
+Best trial from stage 1 : simple_lr_baseline
+Test loss               : 0.000409
+Test RMSE               : 0.020213
+Test MAE                : 0.014795
+Test R2                 : 0.000807
+Test Direction Acc      : 0.5247
+Pred std                : 0.000342
+True std                : 0.020221
